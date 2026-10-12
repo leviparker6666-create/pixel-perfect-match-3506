@@ -116,10 +116,15 @@ function Guide() {
   return (
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
-        <div className="inline-flex items-center gap-3">
-  <img src={halcyonIsotipo} alt="Halcyon" className="h-12 w-12 shrink-0 object-contain" />
-  <span className="font-sans text-sm font-normal text-muted-foreground">Guia Amazon Prep</span>
-</div>
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <div className="inline-flex items-center gap-3">
+            <img src={halcyonIsotipo} alt="Halcyon" className="h-10 w-10 shrink-0 object-contain" />
+            <span className="font-sans text-sm font-normal text-muted-foreground">Guia Amazon Prep</span>
+          </div>
+          <a href={CTA_URL} className="hidden text-sm font-semibold text-primary hover:underline sm:inline">
+            {CTA_LABEL}
+          </a>
+        </div>
       </header>
 
       <section className="bg-ink text-ink-foreground">
