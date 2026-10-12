@@ -8,7 +8,7 @@ const CTA_LABEL = "Pedir orçamento de Amazon Prep";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Guia Amazon Prep em Espanha para vendedores portugueses | Halcyon" },
+      { title: "Amazon Prep em Espanha para Portugueses: Guia 2026" },
       {
         name: "description",
         content:
