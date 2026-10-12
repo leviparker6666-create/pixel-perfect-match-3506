@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero-warehouse.jpg";
+import halcyonIsotipo from "@/assets/logo.png";
 
 const CTA_URL = "https://halcyonglobal.eu/pt/amazon-prep/";
 const CTA_LABEL = "Pedir orçamento de Amazon Prep";
@@ -117,7 +118,8 @@ function Guide() {
       <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <span className="font-display text-lg font-bold text-foreground">
-            Halcyon <span className="font-sans text-sm font-normal text-muted-foreground">· Guia Amazon Prep</span>
+            <img src={halcyonIsotipo} alt="Halcyon" className="h-7 w-7 object-contain" />
+            <span className="font-sans text-sm font-normal text-muted-foreground">Guia Amazon Prep</span>
           </span>
           <a href={CTA_URL} className="hidden text-sm font-semibold text-primary hover:underline sm:inline">
             {CTA_LABEL}
@@ -130,10 +132,10 @@ function Guide() {
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-signal">Guia para e-commerce em Portugal</p>
             <h1 className="mt-4 text-4xl font-bold leading-tight md:text-5xl">
-              Preparar produtos para o Amazon FBA com um parceiro de prep em Espanha
+              Amazon Prep em Espanha: Guia para Vendedores Portugueses 2026
             </h1>
             <p className="mt-5 text-lg opacity-80">
-              Como funciona o fluxo de Portugal até aos centros da Amazon, o que depende de cada parte e o que deves confirmar antes de enviar stock.
+              Descobre como funciona o Amazon Prep em Espanha para vendedores portugueses: desde o envio dos produtos de Portugal até à preparação, etiquetagem e expedição para os centros logísticos da Amazon FBA. Um guia prático para compreender o processo, os custos e os requisitos antes de enviares o teu stock.
             </p>
             <div className="mt-8"><Cta /></div>
             <p className="mt-6 max-w-lg text-xs opacity-60">
