@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Halcyon · Amazon Prep" },
+      { title: "Amazon Prep em Espanha: Guia para Vendedores Portugueses 2026" },
       { name: "description", content: "Guia de Amazon Prep da Halcyon." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -116,7 +116,7 @@ scripts: [
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <head>
         <HeadContent />
       </head>
